@@ -1,31 +1,3 @@
-html 
-{
-
-}
-
-body 
-{
-    margin: 0px;
-    padding: 0px;
-}
-
-#app 
-{
-    margin: 0px;
-    padding: 0px;
-}
-
-header 
-{
-    
-}
-
-main 
-{
-
-}
-
-footer 
-{
-    
-}
+@import 'base.scss';
+@import 'templates.scss';
+@import 'header.scss';

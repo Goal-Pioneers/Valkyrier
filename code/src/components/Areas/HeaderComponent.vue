@@ -1,47 +1,46 @@
 <template> 
-    <header> 
-        <LogoComponent />
-        <nav>
+    <header id="header-static"> 
+        <div class="header-logo header-logo-container"> 
+            <LogoComponent />
+        </div>
+        <nav class="header-list-static">
             <ul> 
-                <li> 
+                <li class="container"> 
                     <a href="/" hreflang="en"> 
-                        Front 
+                        <p> Front </p> 
                     </a> 
                 </li>
-                <li> 
+                <li class="container"> 
                     <a href="/about" hreflang="en"> 
-                        About 
+                        <p> About </p> 
                     </a> 
                 </li>
-                <li> 
+                <li class="container"> 
                     <a href="/contact" hreflang="en"> 
-                        Contact 
+                        <p> Contact </p> 
                     </a> 
                 </li>
-                <li> 
+                <li class="container"> 
                     <a href="/documentation" hreflang="en"> 
-                        Documentation 
+                        <p> Documentation </p>
                     </a> 
                 </li>
-                <li> 
+                <li class="container"> 
                     <a href="/installation" hreflang="en"> 
-                        Installation 
+                        <p> Installation </p> 
                     </a> 
                 </li>
-                <li> 
+                <li class="container"> 
                     <a href="/features" hreflang="en"> 
-                        Features
+                        <p> Features </p>
                     </a>
                 </li>
-                <li> 
+                <li class="container"> 
                     <a href="/login" hreflang="en"> 
-                        Login
+                        <p> Login </p>
                     </a>
                 </li>
             </ul>
-        </nav>
-        <nav> 
-
         </nav>
     </header>
 </template>
