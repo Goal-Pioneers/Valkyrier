@@ -17,7 +17,6 @@ mv ./code/dist ./dist
 
 zip -r ./production.zip "$DIST_DIR"
 
-
 if [ -d "$DIST_DIR" ]; then 
     rm -r "$DIST_DIR"
     echo "deleted current dist directory"
