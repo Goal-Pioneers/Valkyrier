@@ -1,6 +1,8 @@
 <template>
   <div class="register">
-    <h1>This is an register page</h1>
+    <h1 class="information">
+      Registration
+    </h1>
     <RegisterAccountComponent/>
   </div>
 </template>
@@ -10,7 +12,8 @@ import RegisterAccountComponent from '@/components/RegisterAccountComponent.vue'
 export default
 {
   name:'RegisterView',
-  components: {
+  components: 
+  {
     RegisterAccountComponent
   },
 }

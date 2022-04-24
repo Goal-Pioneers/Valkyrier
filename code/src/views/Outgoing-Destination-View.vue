@@ -1,14 +1,16 @@
 <template>
   <div class="outgoingDestination">
-     <h1> Outgoing Destination </h1>
+     <h1 class="information"> Outgoing Destination </h1>
   </div>
 </template>
 
 <script>
 
-export default {
+export default 
+{
   name: 'OutgoingDestinationView',
-  components: {
+  components: 
+  {
   }
 }
 </script>

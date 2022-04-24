@@ -1,5 +1,6 @@
 <template> 
   <div> 
+    <h1 class="information"> Forgotten </h1>
     <ForgotComponent />
   </div>
 </template>
@@ -9,7 +10,8 @@ import ForgotComponent from '@/components/ForgotComponent.vue';
 export default
 {
   name:'ForgotView',
-  components: {
+  components: 
+  {
       ForgotComponent
   },
 }

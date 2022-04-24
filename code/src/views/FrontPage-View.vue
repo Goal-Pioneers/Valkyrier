@@ -1,14 +1,16 @@
 <template>
   <div class="frontpage">
-     <h1> Frontpage </h1>
+     <h1 class="information"> Home </h1>
   </div>
 </template>
 
 <script>
 
-export default {
+export default 
+{
   name: 'FrontPageView',
-  components: {
+  components: 
+  {
   }
 }
 </script>

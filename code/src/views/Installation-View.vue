@@ -1,14 +1,16 @@
 <template>
   <div class="installation">
-     <h1> Installation </h1>
+     <h1 class="information"> Installation </h1>
   </div>
 </template>
 
 <script>
 
-export default {
+export default 
+{
   name: 'InstallationView',
-  components: {
+  components: 
+  {
   }
 }
 </script>

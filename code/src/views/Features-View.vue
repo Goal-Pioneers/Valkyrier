@@ -1,15 +1,16 @@
 <template>
   <div class="features">
-    <h1> Features </h1>
+    <h1 class="information"> Features </h1>
      
   </div>
 </template>
 
 <script>
-
-export default {
+export default 
+{
   name: 'FeaturesView',
-  components: {
+  components: 
+  {
   }
 }
 </script>

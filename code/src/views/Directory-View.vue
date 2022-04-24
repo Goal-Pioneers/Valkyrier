@@ -1,12 +1,14 @@
 <template>
   <div class="directory">
-     <h1> Directory </h1>
+     <h1 class="information"> Directory </h1>
   </div>
 </template>
 <script>
-export default {
+export default 
+{
   name: 'DirectoryView',
-  components: {
+  components: 
+  {
   }
 }
 </script>

@@ -2,7 +2,7 @@
   <div class="login-dashboard">
     <div class="form-container"> 
 
-      <h1>login</h1>
+      <h1 class="information">login</h1>
       
       <LogoComponent/>
       <LoginComponent/>
@@ -30,7 +30,8 @@ import LogoComponent from '@/components/Home/LogoComponent.vue';
 export default
 {
   name:'LoginView',
-  components: {
+  components: 
+  {
     LoginComponent,
     LogoComponent
   },

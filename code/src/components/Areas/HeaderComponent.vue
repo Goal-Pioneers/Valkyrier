@@ -6,14 +6,6 @@
         <nav class="header-list-static">
             <ul> 
                 <li> 
-                    <div class="container"> 
-                        <router-link to="/"> 
-                            Frontend
-                        </router-link>
-                    </div>
-                </li>
-
-                <li> 
                     <div class="container">
                         <router-link to="/about"> 
                             About us
