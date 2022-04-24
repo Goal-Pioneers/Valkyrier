@@ -59,6 +59,12 @@ const routes = [
     path: '/directory',
     name: 'directory',
     component: () => import('../views/Directory-View.vue')
+  },
+  
+  {
+    path: '/out',
+    name: 'outgoing destination',
+    component: () => import('../views/Outgoing-Destination-View.vue')
   }
 ]
 

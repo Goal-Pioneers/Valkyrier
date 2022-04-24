@@ -5,40 +5,61 @@
         </div>
         <nav class="header-list-static">
             <ul> 
-                <li class="container"> 
-                    <a href="/" hreflang="en"> 
-                        <p> Front </p> 
-                    </a> 
+                <li> 
+                    <div class="container"> 
+                        <router-link to="/"> 
+                            Frontend
+                        </router-link>
+                    </div>
                 </li>
-                <li class="container"> 
-                    <a href="/about" hreflang="en"> 
-                        <p> About </p> 
-                    </a> 
+
+                <li> 
+                    <div class="container">
+                        <router-link to="/about"> 
+                            About us
+                        </router-link>
+                    </div>
                 </li>
-                <li class="container"> 
-                    <a href="/contact" hreflang="en"> 
-                        <p> Contact </p> 
-                    </a> 
+
+                <li> 
+                    <div class="container">
+                        <router-link to="/contact"> 
+                            Contact
+                        </router-link>
+                    </div>
                 </li>
-                <li class="container"> 
-                    <a href="/documentation" hreflang="en"> 
-                        <p> Documentation </p>
-                    </a> 
+
+
+                <li> 
+                    <div class="container">
+                        <router-link to="/documentation"> 
+                            Documentation
+                        </router-link>
+                    </div>
                 </li>
-                <li class="container"> 
-                    <a href="/installation" hreflang="en"> 
-                        <p> Installation </p> 
-                    </a> 
+
+                <li> 
+                    <div class="container">
+                        <router-link to="/installation"> 
+                            Installation
+                        </router-link>
+                    </div>
                 </li>
-                <li class="container"> 
-                    <a href="/features" hreflang="en"> 
-                        <p> Features </p>
-                    </a>
+
+                <li> 
+                    <div class="container">
+                        <router-link to="/features"> 
+                            Features
+                        </router-link>
+                    </div>
                 </li>
-                <li class="container"> 
-                    <a href="/login" hreflang="en"> 
-                        <p> Login </p>
-                    </a>
+
+                <li> 
+                    <div class="container">
+                        <router-link to="/login"> 
+                            Login
+                        </router-link>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -50,6 +71,15 @@
     export default 
     {
         name: 'HeaderComponent',
+        data() {
+            return {}
+        },
+        methods: {
+
+        },
+        mounted() {
+
+        },
         components: {
             LogoComponent
         }
