@@ -1,3 +1,64 @@
 @import 'base.scss';
 @import 'templates.scss';
 @import 'header.scss';
+
+
+.login-dashboard
+{
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.form-container 
+{
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.form-container form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.login-dashboard .form-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-dashboard .form-container #login-component form .action-area
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#login-component
+{
+
+}
+
+.logo-component
+{
+    display: flex;
+    justify-content: center;
+}
+
+#login-component .logo-component
+{
+    flex-wrap: wrap;
+    
+}

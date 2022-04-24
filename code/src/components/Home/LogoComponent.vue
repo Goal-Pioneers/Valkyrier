@@ -1,9 +1,11 @@
 <template> 
-        <a href="/" hreflang=""> 
+    <div class="logo-component">
+        <router-link to="/" class="logo-link"> 
             <div class="logo"> 
                 <img src="@/assets/images/logo.png"/>
             </div>
-        </a>
+        </router-link> 
+    </div>
 </template>
 <script> 
     export default 

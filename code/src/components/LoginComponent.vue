@@ -1,5 +1,5 @@
 <template> 
-    <div class="login"> 
+    <div id="login-component"> 
         <form> 
             <input v-model="text" id="username"/>
             <input v-model="text" type="password" id="password"/>

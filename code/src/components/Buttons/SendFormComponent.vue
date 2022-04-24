@@ -1,5 +1,5 @@
 <template> 
-  <div> 
+  <div class="action-area"> 
     <input type="button" v-bind:value="buttonLabel" on-click=""/>
   </div>
 </template>

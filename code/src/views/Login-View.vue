@@ -1,18 +1,25 @@
 <template>
-  <div class="login">
-    <h1>This is an login page</h1>
-    <LogoComponent/>
-    <LoginComponent/>
-    <div> 
-      <a href="/register" hreflang="" title="">
-        <p>
-          Register new account
-        </p>
-      </a>
+  <div class="login-dashboard">
+    <div class="form-container"> 
 
-      <a href="/forgot" hreflang="" title=""> 
-        Forgot my account
-      </a>
+      <h1>login</h1>
+      
+      <LogoComponent/>
+      <LoginComponent/>
+      
+      <div> 
+        <router-link to="/register"> 
+          <p> 
+            Register
+          </p>
+        </router-link>
+
+        <router-link to="Forgot"> 
+          <p> 
+            Forgot
+          </p>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
